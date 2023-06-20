@@ -1,0 +1,80 @@
+/* Write your CSS here */
+.bg-container {
+  background-color: #ffffff;
+  background-size: cover;
+  height: 100vh;
+  font-family: Roboto;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  background-color: #150b3e;
+  padding: 30px;
+  width: 40%;
+  border-radius: 10px;
+  padding-left: 3%;
+}
+.name-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.pera {
+  color: #c4c4c4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon-letter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #c7d2fe;
+  height: 48px;
+  width: 48px;
+  border-radius: 24px;
+
+  color: #7c3aed;
+  margin-right: 20px;
+}
+
+.balance-container {
+  display: flex;
+  justify-content: space-between;
+}
+.balance {
+  color: #585076;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.balance-number {
+  color: #585076;
+}
+
+.count-money {
+  color: #d4d2db;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.heading {
+  color: #d4d2db;
+  font-size: 22px;
+}
+
+.choose-sum {
+  color: #585076;
+}
+
+.denominations-list {
+  padding-left: 0px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
